@@ -1,13 +1,14 @@
 /*
-¶¨ÒåÏÔÊ¾Ö÷²Ëµ¥ÒÔ¼°¸÷¶ş¼¶²Ëµ¥²Ù×÷º¯Êı 
+å®šä¹‰æ˜¾ç¤ºä¸»èœå•ä»¥åŠå„äºŒçº§èœå•æ“ä½œå‡½æ•° 
 */
 #ifndef MENU_H_H
 #define MENU_H_H
 #include "CLibrary.h"
-void menu();	//Ö÷²Ëµ¥ 
-void menu_add(CLibrary &lib);	//Ìí¼Ó 
-void menu_find(const CLibrary &lib);//²éÕÒ 
-void menu_edit(CLibrary &lib);	//ĞŞ¸Ä 
-void menu_delete(CLibrary &lib);	//É¾³ı 
-void menu_bor_re(CLibrary &lib);	//½èÊé»¹Êé 
+void menu();	//ä¸»èœå• 
+void menu_add(CLibrary &lib);	//æ·»åŠ  
+void menu_find(const CLibrary &lib);//æŸ¥æ‰¾ 
+void menu_edit(CLibrary &lib);	//ä¿®æ”¹ 
+void menu_delete(CLibrary &lib);	//åˆ é™¤ 
+void menu_bor_re(CLibrary &lib);	//å€Ÿä¹¦è¿˜ä¹¦ 
 #endif
+
